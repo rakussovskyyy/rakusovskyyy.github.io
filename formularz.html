@@ -6,11 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="https://formspree.io/meqgnqgg" method="POST"> <label for="imie">Imię:</label><br />
+    <form action="https://formspree.io/meqgnqgg" method="POST">
+        <label for="imie">Imię:</label><br />
         <input type="text" name="imie" id="imie"><br />
         <label for="nazwisko">Nazwisko:</label><br />
         <input type="text" name="nazwisko" id="nazwisko"><br />
-        <input type="submit" value="Wyślij" > 
+        <label for="email">Email:</label><br />
+        <input type="email" name="mail" id="email"> <br /> 
+        <label for="number">Numer telefonu:</label> <br />
+        <input type= "number" name="quanity" id="number"><br />
+        <label for="select">Miasto:</label><br />
+        <select name="select" id="select">
+            <option value="value1">Kraków</option> 
+            <option value="value2" selected>Warszawa</option> 
+            <option value="value3">Gdańsk</option> 
+        </select> <br />
+        <input type= "radio" name="gender">Mężczyzna <br />
+        <input type= "radio" name="gender">Kobieta <br />
+        <label for="checkbox">Zgoda na przetwarzanie danych osobowych:</label>
+        <input type= "checkbox" name="agreement" id="checkbox">  <br />
+        <label for="textarea">Wiadomość:</label> <br />
+        <textarea id="textarea" rows="4" cols="50"></textarea> <br />
+        <input type="submit" value="Wyślij" >
     </form>
 </body>
 </html>
