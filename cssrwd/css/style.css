@@ -10,3 +10,17 @@
     background-color: lemonchiffon;
     padding: 15px;
 }
+
+@media (max-width: 992px) {
+    .box {
+        width:50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 100%;
+        border: 5px solid blue;
+        padding:5px;
+    }
+}
